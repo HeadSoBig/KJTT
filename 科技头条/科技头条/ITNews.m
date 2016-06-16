@@ -10,4 +10,10 @@
 
 @implementation ITNews
 
+- (void)setValue:(id)value forUndefinedKey:(NSString *)key{}
+
+- (NSString *)description {
+    return [NSString stringWithFormat:@"{id = %@, title = %@, summary = %@, addtime = %@, sitename = %@, src_img = %@}", _id, _title, _summary, _addtime, _sitename, _src_img];
+}
+
 @end

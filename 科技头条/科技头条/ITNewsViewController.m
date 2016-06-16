@@ -7,6 +7,7 @@
 //
 
 #import "ITNewsViewController.h"
+#import "ITNews.h"
 
 @interface ITNewsViewController ()
 
@@ -33,7 +34,20 @@
         }
         
         NSArray *array = [NSJSONSerialization JSONObjectWithData:data options:0 error:NULL];
-        NSLog(@"%@",array);
+        //NSLog(@"%@",array);
+        
+        // 字典转模型
+        NSMutableArray *arrayM = [NSMutableArray array];
+        
+        for (NSDictionary *dict in array) {
+            
+            ITNews *model = [ITNews new];
+            
+            [model setValuesForKeysWithDictionary:dict];
+            
+            [arrayM addObject:model];
+        }
+        NSLog(@"%@",arrayM);
         
     }]resume];
 }
