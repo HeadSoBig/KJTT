@@ -10,7 +10,6 @@
 		CCCA700B5D3DA978B78D7759 /* libPods-科技头条.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D04235431DCBED58F55D1F9 /* libPods-科技头条.a */; };
 		DC3BEE371D1311A800BBF9D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3BEE361D1311A800BBF9D6 /* main.m */; };
 		DC3BEE3A1D1311A800BBF9D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3BEE391D1311A800BBF9D6 /* AppDelegate.m */; };
-		DC3BEE3D1D1311A800BBF9D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3BEE3C1D1311A800BBF9D6 /* ViewController.m */; };
 		DC3BEE401D1311A800BBF9D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3BEE3E1D1311A800BBF9D6 /* Main.storyboard */; };
 		DC3BEE421D1311A800BBF9D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3BEE411D1311A800BBF9D6 /* Assets.xcassets */; };
 		DC3BEE451D1311A800BBF9D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3BEE431D1311A800BBF9D6 /* LaunchScreen.storyboard */; };
@@ -24,8 +23,6 @@
 		DC3BEE361D1311A800BBF9D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DC3BEE381D1311A800BBF9D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DC3BEE391D1311A800BBF9D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DC3BEE3B1D1311A800BBF9D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DC3BEE3C1D1311A800BBF9D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DC3BEE3F1D1311A800BBF9D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC3BEE411D1311A800BBF9D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC3BEE441D1311A800BBF9D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -84,12 +81,7 @@
 			children = (
 				DC3BEE381D1311A800BBF9D6 /* AppDelegate.h */,
 				DC3BEE391D1311A800BBF9D6 /* AppDelegate.m */,
-				DC3BEE3B1D1311A800BBF9D6 /* ViewController.h */,
-				DC3BEE3C1D1311A800BBF9D6 /* ViewController.m */,
 				DC3BEE3E1D1311A800BBF9D6 /* Main.storyboard */,
-				DC3BEE411D1311A800BBF9D6 /* Assets.xcassets */,
-				DC3BEE431D1311A800BBF9D6 /* LaunchScreen.storyboard */,
-				DC3BEE461D1311A800BBF9D6 /* Info.plist */,
 				DC3BEE351D1311A800BBF9D6 /* Supporting Files */,
 			);
 			path = "科技头条";
@@ -98,6 +90,9 @@
 		DC3BEE351D1311A800BBF9D6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DC3BEE411D1311A800BBF9D6 /* Assets.xcassets */,
+				DC3BEE431D1311A800BBF9D6 /* LaunchScreen.storyboard */,
+				DC3BEE461D1311A800BBF9D6 /* Info.plist */,
 				DC3BEE361D1311A800BBF9D6 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -224,7 +219,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC3BEE3D1D1311A800BBF9D6 /* ViewController.m in Sources */,
 				DC3BEE3A1D1311A800BBF9D6 /* AppDelegate.m in Sources */,
 				DC3BEE371D1311A800BBF9D6 /* main.m in Sources */,
 			);
