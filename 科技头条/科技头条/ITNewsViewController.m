@@ -16,22 +16,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [self loadData];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)loadData {
+    
+    NSString *urlString = @"http://news.coolban.com/Api/Index/news_list/app/2/cat/0/limit/20/time/1464926334/type/0?channel=appstore&uuid=86FE9108-47B0-4052-BD4C-8DB4FB719B5C&net=5&model=iPhone&ver=1.0.5";
+    NSURL *url = [NSURL URLWithString:urlString];
+    
+    [[[NSURLSession sharedSession] dataTaskWithURL:url completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+        
+        if (error != nil) {
+            NSLog(@"请求错误 %@",error);
+            return ;
+        }
+        
+        NSArray *array = [NSJSONSerialization JSONObjectWithData:data options:0 error:NULL];
+        NSLog(@"%@",array);
+        
+    }]resume];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
