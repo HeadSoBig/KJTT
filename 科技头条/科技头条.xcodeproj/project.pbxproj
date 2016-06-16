@@ -25,6 +25,7 @@
 		DC3BEE6F1D131B2500BBF9D6 /* UIScreen+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3BEE621D131B2500BBF9D6 /* UIScreen+CZAddition.m */; };
 		DC3BEE701D131B2500BBF9D6 /* UIView+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3BEE641D131B2500BBF9D6 /* UIView+CZAddition.m */; };
 		DC3BEE711D131B2500BBF9D6 /* UIViewController+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3BEE661D131B2500BBF9D6 /* UIViewController+CZAddition.m */; };
+		DC3BEE741D131DC900BBF9D6 /* ITNews.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3BEE731D131DC900BBF9D6 /* ITNews.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,8 @@
 		DC3BEE641D131B2500BBF9D6 /* UIView+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZAddition.m"; sourceTree = "<group>"; };
 		DC3BEE651D131B2500BBF9D6 /* UIViewController+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CZAddition.h"; sourceTree = "<group>"; };
 		DC3BEE661D131B2500BBF9D6 /* UIViewController+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CZAddition.m"; sourceTree = "<group>"; };
+		DC3BEE721D131DC900BBF9D6 /* ITNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITNews.h; sourceTree = "<group>"; };
+		DC3BEE731D131DC900BBF9D6 /* ITNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITNews.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				DC3BEE391D1311A800BBF9D6 /* AppDelegate.m */,
 				DC3BEE4C1D1315B600BBF9D6 /* ITNewsViewController.h */,
 				DC3BEE4D1D1315B600BBF9D6 /* ITNewsViewController.m */,
+				DC3BEE721D131DC900BBF9D6 /* ITNews.h */,
+				DC3BEE731D131DC900BBF9D6 /* ITNews.m */,
 				DC3BEE3E1D1311A800BBF9D6 /* Main.storyboard */,
 				DC3BEE351D1311A800BBF9D6 /* Supporting Files */,
 			);
@@ -290,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC3BEE741D131DC900BBF9D6 /* ITNews.m in Sources */,
 				DC3BEE6D1D131B2500BBF9D6 /* UIColor+CZAddition.m in Sources */,
 				DC3BEE681D131B2500BBF9D6 /* NSArray+Log.m in Sources */,
 				DC3BEE6B1D131B2500BBF9D6 /* NSString+Hash.m in Sources */,
